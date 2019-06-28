@@ -1,0 +1,28 @@
+
+
+ANDROID
+-------
+1 - Instale o pacote react-native-rename globalmente:
+    npm i -g react-native-rename
+
+2 - Na pasta raíz do projeto, execute o comando:
+    react-native-rename "Nome do Projeto" -b com.<nome-do-pacote>
+      exemplo: react-native-rename "Meu App" -b com.meuapp
+
+3 - Arquivos para serem obtidos ou configurados:
+    android/app/google-service.json               // obtido ao criar um novo projeto firebase
+    android/app/release.keystore                  // chave de assinatura necessária para o build em produção
+    android/gradle.properties                     // arquivo contendo as variáveis de arquivo e senha do keystore acima
+    android/local.properties                      // usado para indicar o local do ndk.dir e sdk.dir em sua máquina
+    android/app/src/main/res/values/strings.xml   // alterar para o nome de exibição da sua aplicação
+
+4 - No VSCode, use CTRL+SHIFT+F para procurar todas as ocorrências de myhomeapp e substitua pelo nome do pacote de seu projeto.
+    Não alterar arquivos da pasta IOS
+
+
+IOS
+---
+O projeto ainda não foi iniciado em IOS, portanto, ainda compensa criar um projeto IOS do zero e instalar 
+todas as dependências manualmente devido à complexidade dos nomes de métodos.
+
+

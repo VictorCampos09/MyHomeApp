@@ -1,0 +1,58 @@
+{
+  "name": "myhomeapp",
+  "description": "myhomeapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "./config.sh && node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "androidRelease": "cd android && ./gradlew assembleRelease",
+    "lint": "node_modules/eslint/bin/eslint.js ./",
+    "test": "jest --colors --coverage"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.2",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-exit-app": "^1.0.0",
+    "react-native-firebase": "~5.4.0",
+    "react-native-gesture-handler": "~1.2.1",
+    "react-native-screens": "~1.0.0-alpha.22",
+    "react-native-ui-kitten": "~3.1.3",
+    "react-native-vector-icons": "~6.4.2",
+    "react-native-webview": "^5.10.0",
+    "react-navigation": "~3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "^24.8.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "4.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.11.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "1.17.1",
+    "react-dom": "16.8.3",
+    "react-test-renderer": "16.8.3",
+    "sinon": "^7.3.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "<rootDir>config.js"
+    ]
+  }
+}

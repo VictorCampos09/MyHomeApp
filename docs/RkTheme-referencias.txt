@@ -1,0 +1,87 @@
+theme dentro do RkStyleSheet:
+
+theme.colors e segue a estrutura abaixo:
+
+RkTheme
+currentTheme:
+  colors:
+    background: "#fff"
+    border:
+      base: "#0000001A"
+      card: "#00000014"
+      disabled: "#0000001A"
+      material: "#feb401"
+      primary: "#0000001A"
+      solid: "#0000003B"
+      __proto__: Object
+    button:
+      background: "#fff"
+      danger: "#ed1c4d"
+      dangerActive: "#c2173f"
+      foreground: "#000000dd"
+      info: "#19bfe5"
+      infoActive: "#17adcf"
+      outline: "transparent"
+      primary: "#397edc"
+      primaryActive: "#2d63ad"
+      success: "#22c93d"
+      successActive: "#1dab35"
+      text: "#fff"
+      warning: "#feb401"
+      warningActive: "#eba502"
+      __proto__: Object
+    danger: "#ed1c4d"
+    dangerActive: "#c2173f"
+    foreground: "#000000dd"
+    highlight: "#ececec"
+    info: "#19bfe5"
+    infoActive: "#17adcf"
+    input:
+      background: "#fff"
+      label: "#0000008e"
+      placeholder: "#0000008e"
+      text: "#000000dd"
+      __proto__: Object
+    modalBackground: "#0000004d"
+    overlay: "#00000057"
+    primary: "#397edc"
+    primaryActive: "#2d63ad"
+    screen:
+      background: "#fff"
+      base: "#fff"
+      danger: "#ed1c4d"
+      dangerActive: "#c2173f"
+      disabled: "#0000001A"
+      foreground: "#000000dd"
+      info: "#19bfe5"
+      infoActive: "#17adcf"
+      inverse: "#000000"
+      material: "#397edc"
+      modalBackground: "#0000004d"
+      primary: "#397edc"
+      primaryActive: "#2d63ad"
+      success: "#22c93d"
+      successActive: "#1dab35"
+      warning: "#feb401"
+      warningActive: "#eba502"
+      __proto__: Object
+    success: "#22c93d"
+    successActive: "#1dab35"
+    text:
+      base: "#000000dd"
+      hint: "#0000008e"
+      inverse: "#fff"
+      subtitle: "#000000dd"
+      __proto__: Object
+    warning: "#feb401"
+    warningActive: "#eba502"
+    __proto__: Object
+  fonts:
+    sizes:
+      base: 15
+      large: 18
+      medium: 14
+      small: 12
+      xlarge: 20
+      xxlarge: 24
+

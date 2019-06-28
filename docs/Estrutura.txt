@@ -1,0 +1,35 @@
+Dependencias de produção
+-----------------------------
+React native 0.59        - Ok
+React Navigation         - Ok
+RN Firebase 5.4.X        
+    Authentication       - Ok
+    RealtimeDatabase     - Ok
+    PushNotifications    - +-
+    AdMob                - Ok
+RNGoogleSignin           -
+RNFbsdk                  -
+RN VectorIcons           - Ok
+RN Kitten                - Ok
+Community AsyncStorage   - Ok
+RN Exit App              - Ok
+
+DevDependencies
+---------------
+Prettier     Ok
+Eslint       Ok
+Pre-commit   Ok
+Jest         Ok
+Enzyme       Ok
+sinon        Ok
+
+Estrutura
+-------------------------
+Teste               - Ok
+Linter              - Ok
+Pre-commit          - Ok
+Navegação           - Ok
+Fluxo básico 
+entre componentes 
+e serviços          - Ok
+

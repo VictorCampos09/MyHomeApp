@@ -1,0 +1,4 @@
+Push recorrente
+Deletar pushs
+Login Facebook
+Login Google
